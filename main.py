@@ -112,7 +112,7 @@ async def tag(event):
     usrtxt = ""
     await event.respond(f"**✅ Etiketleme İşlemi Başarıyla Başlatıldı .**", buttons=(
                       [
-                      Button.url('💌 ʀᴇsᴍɪ ᴋᴀɴᴀʟ 💌', f'https://t.me/{GROUP_SUPPORT}')
+                      Button.url('💌 ʀᴇsᴍɪ ᴋᴀɴᴀʟ 💌', f'https://t.me/{+FaHVqFQJzyM2ODE0}')
                       ]
                     ),
                     link_preview=False)
