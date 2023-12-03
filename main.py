@@ -45,7 +45,7 @@ api_hash = os.environ.get("API_HASH","7e74b1e22026fcc291d32b3d431aa21e")
 bot_token = os.environ.get("TOKEN","6499657849:AAHTKSws3F8je7Gb2Rwi7Rf6JRBithdkeNM") # Botunuzun Tokenini Girin.
 sahib = os.environ.get("sahib", "EgeArslan") # Sahiplik Hesabin Kullanıcı Adını Girin .
 BOT_ID = int(os.environ.get("BOT_ID", "6499657849")) # Botunuzun İd'si ( Tokenin Başındaki Rakamları ) Girin .
-DATABASE_URL = os.environ.get("DATABASE_URL","") # MongoDB veritabanınızın url'si.
+DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://uegearslan34:umut3g3.@cluster0.i83gakn.mongodb.net/?retryWrites=true&w=majority") # MongoDB veritabanınızın url'si.
 BOT_USERNAME = os.environ.get("BOT_USERNAME","YıldızTaggerBot") # Botunuzun kullanıcı adı.
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL","-1002079473310")) # Botunuzun eylemleri kaydedeceği kayıt grubunun id'si.
 GROUP_SUPPORT = os.environ.get("GROUP_SUPPORT", "") # Botunuzdan yasaklanan kullanıcıların itiraz işlemleri için başvuracağı grup, kanal veya kullanıcı. Boş bırakırsanız otomatik olarak OWNER_ID kimliğine yönlendirecektir.
